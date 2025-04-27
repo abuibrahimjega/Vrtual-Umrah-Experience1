@@ -1,0 +1,71 @@
+.discussion-details {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.post-section h2 {
+  margin-bottom: 0.25rem;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.comments-section {
+  margin-top: 2rem;
+}
+
+.comment-card {
+  background: #f5f5f5;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.comment-text {
+  margin: 0 0 0.5rem;
+}
+
+.comment-meta {
+  font-size: 0.8rem;
+  color: #666;
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.comment-form textarea {
+  resize: vertical;
+  padding: 0.5rem;
+  min-height: 80px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.comment-form button {
+  align-self: flex-end;
+  padding: 0.4rem 1rem;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #005fa3;
+}
